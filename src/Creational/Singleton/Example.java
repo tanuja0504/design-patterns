@@ -10,5 +10,6 @@ public class Example {
         if(singleton==anotherSingleton){
             System.out.println("They are same");
         }
+
     }
 }
