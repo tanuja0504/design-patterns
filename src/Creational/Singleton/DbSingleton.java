@@ -14,7 +14,7 @@ public class DbSingleton {
     }
 
     //How to access object
-    //this is not synchronized to optimize performance
+    //method is not synchronized to optimize performance
     public static DbSingleton getInstance() {
         if (instance == null) {
             //may be null but two threads can access
